@@ -1,0 +1,142 @@
+/*工具栏开始*/
+.toorbar{
+    width: 100%;
+    height: 36px;
+    background: #f5f5f5;
+}
+.toorbar>.toorbar-in{
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+.toorbar-in>.toorbar-left{
+    height: 100%;
+
+}
+.toorbar-in>.toorbar-right{
+    height: 100%;
+
+}
+.toorbar-in li{
+    float: left;
+    color:#666;
+    margin-right: 10px;
+    font-size: 13px;
+    padding:7px 5px;
+    box-sizing: border-box;
+}
+.toorbar-in li:last-child{
+    margin-right: 0;
+}
+.toorbar-in .jia a{
+    color:#333;
+}
+.toorbar-in li a{
+    color:#666;
+}
+.toorbar-in .weizhi{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    color:#f90;
+}
+.toorbar-right .bs{
+    color:#f90;
+}
+.toorbar-right li a b{
+    display: inline-block;
+    margin-right: 5px;
+}
+.toorbar-in li:hover{
+    color:#f90;
+}
+.toorbar-in a:hover{
+    color:#f90;
+}
+.toorbar-in li:first-child{
+    color:#666 !important;
+}
+.toorbar-in a i{
+    display: inline-block;
+    animation: all 0.5s;
+}
+.toorbar-in a:hover i{
+    transform: rotateX(180deg);
+}
+/*工具栏结束*/
+
+/*头部开始*/
+.header{
+    width: 100%;
+    height: 148px;
+}
+.header>.header-in{
+    background: pink;
+}
+.header>.header-in>.header-top{
+    width: 100%;
+    height: 110px;
+    background: skyblue;
+    position: relative;
+}
+.header-top>a:first-child>img{
+    width: 190px;
+    height: 100px;
+}
+.header-top>a:nth-child(2)>img{
+    width: 160px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.header-top p{
+    display: flex;
+    justify-content: left;
+}
+.header-top p input:first-child{
+    display: inline-block;
+    width: 420px;
+    height: 45px;
+    padding-left: 20px;
+    border: 2px solid rgba(255, 156, 0, 0.67);
+    box-sizing: border-box;
+    outline:none;
+   }
+.header-top p input:nth-child(2){
+    display: inline-block;
+    width: 120px;
+    height: 45px;
+    background: #f90;
+    box-sizing: border-box;
+    outline:none;
+    font-size: 18px;
+    font-weight: bold;
+    color:#fff;
+    border:none;
+}
+.header-top p input{
+    display: inline-block;
+    position: relative;
+    left: 361px;
+    top: -80px;
+}
+.header-top p i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 361px;
+    top: 40px;
+    margin-left: 2px;
+    color:#666;
+}
+
+.header>.header-in>.header-bottom{
+    width: 100%;
+    height: 38px;
+    background:orchid;
+}
+/*头部结束*/
+
+
+
